@@ -2,12 +2,12 @@
   "kind": "OperatorUnitTest",
   "name": "test",
   "namespace": "test",
-  "inputDataUri": "crabs-long.csv",
+  "inputDataUri": "groups_pairing_control_exp.tsv",
   "outputDataUri": ["test-result.csv"],
-  "columns": ["sex"],
-  "rows": ["variable"],
+  "columns": ["Observation"],
+  "rows": ["Variable"],
   "colors": [],
   "labels": [],
-  "yAxis": "measurement",
+  "yAxis": "Measurement",
   "xAxis": ""
 }
