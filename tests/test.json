@@ -10,7 +10,7 @@
     }
   ],
   "inputDataUri": "groups_pairing_control_exp.tsv",
-  "outputDataUri": ["test-result.csv"],
+  "outputDataUri": ["table1.csv", "table2.csv"],
   "columns": ["Observation"],
   "rows": [],
   "colors": [],
@@ -18,3 +18,4 @@
   "yAxis": "Measurement",
   "xAxis": ""
 }
+
