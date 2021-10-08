@@ -9,8 +9,7 @@ getOption("tercen.stepId")
 
 ctx = tercenCtx()
 
-ctx %>%
-  select(.ci) %>% 
+data.frame(.ci = seq(0, ctx$cschema$nRows-1)) %>%
   mutate(flag=rep("true", nrow(.))) %>%
   ctx$addNamespace() %>%
   ctx$save()
