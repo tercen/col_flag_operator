@@ -1,11 +1,18 @@
 {
   "kind": "OperatorUnitTest",
   "name": "test",
-  "namespace": "test",
+  "namespace": "ds0",
+  "propertyValues": [
+    {
+    "kind": "StringProperty",
+    "name": "Group",
+    "value": "control"
+    }
+  ],
   "inputDataUri": "groups_pairing_control_exp.tsv",
   "outputDataUri": ["test-result.csv"],
   "columns": ["Observation"],
-  "rows": ["Variable"],
+  "rows": [],
   "colors": [],
   "labels": [],
   "yAxis": "Measurement",
