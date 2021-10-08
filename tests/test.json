@@ -4,7 +4,7 @@
   "namespace": "ds0",
   "propertyValues": [
     {
-    "kind": "StringProperty",
+    "kind": "PropertyValue",
     "name": "Group",
     "value": "control"
     }
