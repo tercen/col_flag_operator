@@ -9,7 +9,7 @@
     "value": "control"
     }
   ],
-  "inputDataUri": "groups_pairing_control_exp.tsv",
+  "inputDataUri": "groups_pairing_control_exp.csv",
   "outputDataUri": ["table1.csv", "table2.csv"],
   "columns": ["Observation"],
   "rows": [],
