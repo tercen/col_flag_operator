@@ -1,10 +1,14 @@
 {
   "name": "Col-flag",
   "description": "Flags selected columns in the view.",
-  "tags": ["flagging"],
-  "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/col_flag_operator"],
+  "tags": [
+    "annotation"
+  ],
+  "authors": [
+    "tercen"
+  ],
+  "urls": [
+    "https://github.com/tercen/col_flag_operator"
+  ],
   "properties": []
 }
-
-
