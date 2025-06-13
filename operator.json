@@ -1,14 +1,47 @@
 {
   "name": "Flag Columns",
-  "description": "Flags selected columns in the view.",
-  "tags": [
-    "annotation"
-  ],
-  "authors": [
-    "tercen"
-  ],
-  "urls": [
-    "https://github.com/tercen/col_flag_operator"
-  ],
-  "properties": []
+  "description": "Flags selected columns in the view, assigning a value of \"true\". Use this operator to select columns for downstream filtering.",
+  "tags": ["annotation"],
+  "authors": ["tercen"],
+  "urls": ["https://github.com/tercen/col_flag_operator"],
+  "properties": [],
+  "operatorSpec": {
+    "kind": "OperatorSpec",
+    "ontologyUri": "https://tercen.com/_ontology/tercen",
+    "ontologyVersion": "0.0.1",
+    "inputSpecs": [
+      {
+        "kind": "CrosstabSpec",
+        "metaFactors": [
+          {
+            "kind": "MetaFactor",
+            "name": "Observation",
+            "type": "",
+            "description": "Observation identifiers (cells, samples, individuals).",
+            "ontologyMapping": "observation",
+            "crosstabMapping": "column",
+            "cardinality": "1..n",
+            "factors": []
+          }
+        ],
+        "axis": [
+          {
+            "kind": "AxisSpec",
+            "metaFactors": [
+              {
+                "kind": "MetaFactor",
+                "name": "Measurement",
+                "type": "numeric",
+                "description": "Measurement value (numeric, per cell).",
+                "ontologyMapping": "measurement",
+                "crosstabMapping": "y",
+                "cardinality": "1",
+                "factors": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }
