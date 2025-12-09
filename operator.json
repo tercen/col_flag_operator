@@ -1,6 +1,6 @@
 {
   "name": "Flag Columns",
-  "description": "Flags selected columns in the view, assigning a value of \"true\". Use this operator to select columns for downstream filtering.",
+  "description": "Flags selected columns in the view, assigning a value of true. Use this operator to select columns for downstream filtering.",
   "tags": ["annotation"],
   "authors": ["tercen"],
   "urls": ["https://github.com/tercen/col_flag_operator"],
