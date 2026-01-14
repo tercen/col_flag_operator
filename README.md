@@ -8,8 +8,7 @@ The `col flag operator` is an operator that can flag columns in a Tercen view. T
 
 Input projection|.
 ---|---
-`y-axis`        | numeric, measurement
-`column`        | represents the observations (e.g. cells, samples, individuals)
+`column`        | represents the observations to flag (e.g. cells, samples, individuals)
 
 Output relations|.
 ---|---
